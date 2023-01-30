@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHubFinder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="main-title">Find Your GitHub Profile Here</h1>
+      <small>Search for People HERE</small>
+      <div class="input-container">
+        <input type="text" id="search-username" placeholder="Search Username" />
+        <button class="search-usernameBtn" id="search-usernameBtn">
+          Search
+        </button>
+      </div>
+
+      <section class="intro" id="intro">
+        <!-- added through js -->
+      </section>
+
+      <!-- <section class="repos hide" >
+        <input
+          type="text"
+          class="filter-repos hide"
+          placeholder="Search Repositories"
+        />
+        <ul class="repos-list"></ul> 
+      </section> -->
+
+      <!-- DUMMY -->
+      <!-- <section class="repos">
+         <input 
+          type ="text"
+          class="filter-repos"
+          placeholder="Search Repositories"/>
+          <ul class="repo-list">
+            <li class ="repo">
+              <span>null</span><br/><br/>
+              <span><i class ="devicon-html5-plain colored"></i>HTML</span> <br/><br/>
+              <a herf="https://github.com/uniq47/">View Project </a>
+              </li>
+          </ul>  
+      </section> -->
+
+      <div id="loading"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
